@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+}
+.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background-color: grey;
+  min-height: 8vh;
+}
+
+.canvas {
+  margin: 2px;
+  border-color: black;
+  border: 1px solid;
+}
+
+.start-button {
+  background-color: grey;
+  color: whitesmoke;
+  justify-content: space-around;
+  align-items: left;
+  min-height: 32px;
+  min-width: 128px;
+  cursor: pointer;
+}
+
+.stop-button {
+  justify-content: space-around;
+  background-color: grey;
+  color: whitesmoke;
+  align-items: right;
+  min-height: 32px;
+  min-width: 128px;
+  cursor: pointer;
+}
